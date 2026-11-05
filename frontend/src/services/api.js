@@ -8,7 +8,7 @@
  *   Production  (.env.production):  VITE_API_BASE_URL=https://eudoohire-production.up.railway.app
  */
 
-const BASE_URL = (import.meta.env.VITE_API_BASE_URL || "").replace(/\/$/, "");
+const BASE_URL = "";
 
 /**
  * Returns the Razorpay public key ID from the environment.
